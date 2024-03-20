@@ -2,7 +2,7 @@ from os import environ as env
 
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", "21317013"))
-    API_HASH = env.get("TELEGRAM_API_HASH", " c80881d5f279958d9e4112520df1c880")
+    API_HASH = env.get("TELEGRAM_API_HASH", "c80881d5f279958d9e4112520df1c880")
     OWNER_ID = int(env.get("OWNER_ID", " 68039673143"))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS" )
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "@Allecol_Bot")
